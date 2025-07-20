@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    color: #0E34A0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-image:url(img/home.webp);
+    background-size: cover;
+    height: 700px;
+}
+.homepage{
+    background-color: rgba(128, 128, 128, 0.495);
+    height: 70px;
+    display: flex;
+}
+header.homepage {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+    background-color: rgba(128, 128, 128, 0.495); 
+    padding: 5px 0; 
+}
+.title{
+    color: aqua;
+    font-weight: bold;
+    background-color: transparent;
+    padding-left: 160px;
+    padding-top: 5px;
+    font-size: 30px;
+    font-family:monospace;
+}
+.menu{
+    margin-top: 150px;
+    margin-left: 500px;
+    margin-right: 500px;
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.423);
+    border-radius: 15px;
+    box-shadow: 10px 7px 25px rgb(47, 47, 47);
+}
+p{
+    background-color: transparent;
+    padding: 10px;
+    font-size: 40px;
+}
+.link:hover{
+    color: #626262;
+    font-size: 45px;
+}
+a{
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+.head{
+    color: rgb(89, 251, 183);
+}
+.listname{
+    display: inline;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    background-color: #2F3061;
+}
+.menu h1 {
+    color: aqua;
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+.menu p {
+    color: blue;
+    margin: 5px;
+    padding: 15px;
+    text-align: justify;
+    text-align: center;
+}
+
+.menu label, .menu input[type="radio"] {
+    font-size: 30px; 
+    margin: 5px;
+    cursor: pointer;
+}
+
+.menu label {
+    display: block;
+    text-align: center;
+}
+
+.menu input[type="radio"] {
+    display: block;
+    margin: 10px auto;
+    width: 20px;
+    height: 20px;
+}
+.submit-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #0E34A0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #072f9d;
+}

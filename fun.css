@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('img/home.webp');
+    background-size: cover;
+    background-position: center;
+}
+.center-box {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 50%;
+    text-align: center;
+}
+.center-box a {
+    text-decoration: none;
+    color: #000;
+}
+.homepage {
+    background-color: rgba(128, 128, 128, 0.495);
+    height: 70px;
+    display: flex;
+}
+p {
+    background-color: transparent;
+    padding: 10px;
+    font-size: 40px;
+}

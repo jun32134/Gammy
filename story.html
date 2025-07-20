@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="survey.css">
+    <link rel="icon" href="img/icon.png" type="img/png">
+    <title>RECOMMENDATIONS</title>
+</head>
+<body>
+    <header class="homepage">
+        <div class="title">
+            <p class="head"><i class="fa-solid fa-rotate-left"></i><a href="single.html">  GO BACK</a></p>
+        </div>
+    </header>
+    <div class="menu">
+        <h1><i class="fa-solid fa-square-poll-vertical"></i>  GAMMY USER RECOMMENDATIONS</h1>
+        <p>CHOOSE ONE BELOW THAT INTEREST YOU</p>
+        <form id="surveyform">
+            <label for="popcorn1"></label>
+                <div class="radio-group">
+                    <label for="action">ACTION GAMES</label>
+                    <input type="radio" name="popcorn1" id="action" value="action">
+                    <label for="brain">BRAIN GAMES</label>
+                    <input type="radio" name="popcorn1" id="brain" value="brain">
+                    <label for="horror">HORROR GAMES</label>
+                    <input type="radio" name="popcorn1" id="horror" value="horror">
+                </div>
+                <button type="button" class="submit-button" onclick="submitsurvey()">NEXT</button>
+            </form>
+            <script src="story.js"></script>
+       </div>
+</body>
+</html>

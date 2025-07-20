@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    color: blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
+    background-image: url('img/home.webp');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+header.homepage {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgba(128, 128, 128, 0.495);
+    padding: 5px 0;
+}
+.title {
+    color: lightgreen;
+    font-weight: bold;
+    background-color: transparent;
+    padding-left: 160px;
+    padding-top: 5px;
+    font-size: 30px;
+    font-family: monospace;
+}
+p {
+    background-color: transparent;
+    padding: 10px;
+    font-size: 40px;
+}
+a {
+    text-decoration: none;
+    transition-property: all;
+    transition-duration: 0.5s;
+}
+.menu {
+    margin-top: 50px;
+    padding: 100px;
+    background-color: rgba(255, 255, 255, 0.423);
+    border-radius: 15px;
+    box-shadow: 10px 7px 25px rgb(47, 47, 47);
+    width: 600px;
+    text-align: center;
+}
+.form-title {
+    color: blue;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 20px;
+}
+input[type="email"],
+input[type="password"],
+input[type="text"] { 
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: darkblue;
+}
+.create-account {
+    margin-top: 20px;
+    font-size: 24px;
+}
+.create-account a {
+    color: blue;
+    text-decoration: underline;
+}
+.create-account a:hover {
+    text-decoration: underline;
+}
+.go-back {
+    color: blue;
+    text-decoration: none;
+    margin-top: 20px;
+}
+.go-back:hover {
+    text-decoration: underline;
+}
